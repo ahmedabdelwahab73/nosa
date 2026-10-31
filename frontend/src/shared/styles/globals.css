@@ -1,0 +1,236 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Nosa design tokens — the only place colors, fonts and motion are defined.
+ * Brand colors are sampled from the logo: purple #832F88, yarn red #C32C3C.
+ * Layer 1 (below, :root): shadcn semantic variables, used by every component.
+ * Layer 2 (@theme): brand scales for decorative, brand-specific styling.
+ */
+
+/* Not inline: utilities read var(--font-*) at runtime so the RTL override below applies. */
+@theme {
+  --font-sans: var(--font-en), var(--font-ar), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-en-display), var(--font-ar), ui-serif, Georgia, serif;
+  --font-heading: var(--font-en-display), var(--font-ar), ui-serif, Georgia, serif;
+
+  --color-primary-50: #f8f0f8;
+  --color-primary-100: #f0ddf0;
+  --color-primary-200: #e0bce2;
+  --color-primary-300: #c98fcc;
+  --color-primary-400: #ad5fb1;
+  --color-primary-500: #9a44a0;
+  --color-primary-600: #832f88;
+  --color-primary-700: #6c2670;
+  --color-primary-800: #561f5a;
+  --color-primary-900: #3f1742;
+
+  --color-yarn-50: #fcedee;
+  --color-yarn-100: #f8d5d8;
+  --color-yarn-500: #c32c3c;
+  --color-yarn-600: #a62331;
+
+  --color-ink: #141414;
+  --color-ink-muted: #5c5560;
+  --color-ink-subtle: #8c8490;
+  --color-canvas: #faf6f1;
+  --color-blush: #f6e9ec;
+  --color-line: #e9e1d8;
+  --color-petal: #e7a3c4;
+
+  /* Status tones (order badges, alerts) as seen in the dashboard designs. */
+  --color-success: #2f855a;
+  --color-success-50: #e6f4ec;
+  --color-warning: #b7791f;
+  --color-warning-50: #fcf1e1;
+  --color-info: #2b6cb0;
+  --color-info-50: #e5eef8;
+
+  --font-script: var(--font-en-script), var(--font-ar-script), cursive;
+
+  --shadow-soft: 0 10px 30px -12px rgb(63 23 66 / 0.18);
+  --shadow-card: 0 2px 12px -4px rgb(63 23 66 / 0.1);
+  --ease-thread: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Arabic leads the font stack in RTL pages. */
+[dir="rtl"] {
+  --font-sans: var(--font-ar), var(--font-en), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-ar), var(--font-en-display), ui-serif, Georgia, serif;
+  --font-heading: var(--font-ar), var(--font-en-display), ui-serif, Georgia, serif;
+  --font-script: var(--font-ar-script), var(--font-en-script), cursive;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --radius: 1rem;
+  /* Tables scroll inside their own box (header stays put); the page itself does not scroll for them. */
+  --table-max-height: max(20rem, calc(100dvh - 22rem));
+  --background: #faf6f1;
+  --foreground: #141414;
+  --card: #ffffff;
+  --card-foreground: #141414;
+  --popover: #ffffff;
+  --popover-foreground: #141414;
+  --primary: #832f88;
+  --primary-foreground: #ffffff;
+  --secondary: #f6e9ec;
+  --secondary-foreground: #561f5a;
+  --muted: #f2ece6;
+  --muted-foreground: #5c5560;
+  --accent: #f8f0f8;
+  --accent-foreground: #561f5a;
+  --destructive: #c32c3c;
+  --border: #e9e1d8;
+  --input: #e9e1d8;
+  --ring: #ad5fb1;
+  --chart-1: #832f88;
+  --chart-2: #c32c3c;
+  --chart-3: #c98fcc;
+  --chart-4: #e2a9b4;
+  --chart-5: #5c5560;
+  /* The dashboard sidebar is solid brand purple with light text. */
+  --sidebar: #832f88;
+  --sidebar-foreground: #f8f0f8;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #832f88;
+  --sidebar-accent: rgb(255 255 255 / 0.14);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgb(255 255 255 / 0.16);
+  --sidebar-ring: #e0bce2;
+}
+
+/* Planned for the dashboard only; the storefront is light. */
+.dark {
+  --background: #16111a;
+  --foreground: #f4eef6;
+  --card: #201924;
+  --card-foreground: #f4eef6;
+  --popover: #201924;
+  --popover-foreground: #f4eef6;
+  --primary: #c98fcc;
+  --primary-foreground: #2a0f2c;
+  --secondary: #2c2230;
+  --secondary-foreground: #f4eef6;
+  --muted: #2c2230;
+  --muted-foreground: #b8adbd;
+  --accent: #33243a;
+  --accent-foreground: #f4eef6;
+  --destructive: #e0606c;
+  --border: rgb(255 255 255 / 0.1);
+  --input: rgb(255 255 255 / 0.15);
+  --ring: #ad5fb1;
+  --chart-1: #c98fcc;
+  --chart-2: #e0606c;
+  --chart-3: #ad5fb1;
+  --chart-4: #e2a9b4;
+  --chart-5: #b8adbd;
+  --sidebar: #201924;
+  --sidebar-foreground: #f4eef6;
+  --sidebar-primary: #c98fcc;
+  --sidebar-primary-foreground: #2a0f2c;
+  --sidebar-accent: #33243a;
+  --sidebar-accent-foreground: #f4eef6;
+  --sidebar-border: rgb(255 255 255 / 0.1);
+  --sidebar-ring: #ad5fb1;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary-200 text-primary-900;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  [role="menuitem"]:not([data-disabled]),
+  [role="menuitemcheckbox"]:not([data-disabled]),
+  [role="menuitemradio"]:not([data-disabled]),
+  [role="option"]:not([data-disabled]),
+  [role="tab"],
+  [role="switch"],
+  [role="checkbox"],
+  [role="radio"],
+  [role="combobox"],
+  summary,
+  label[for],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="file"] {
+    cursor: pointer;
+  }
+
+  :disabled,
+  [data-disabled] {
+    cursor: not-allowed;
+  }
+}
+
+/* Hand-stitched dashed border used for dividers, badges and cards. */
+@utility stitch {
+  --tw-border-style: dashed;
+  border-style: dashed;
+  border-color: var(--color-primary-300);
+}
+
+/* Softer stitched outline for cards and panels (blush dashes, as in the designs). */
+@utility stitch-soft {
+  --tw-border-style: dashed;
+  border-style: dashed;
+  border-color: var(--color-primary-200);
+}
+

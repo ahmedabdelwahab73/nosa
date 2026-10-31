@@ -1,0 +1,47 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/server.ts",
+    "build": "tsup",
+    "start": "node --env-file=.env dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "seed": "tsx --env-file=.env src/scripts/seed.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.2.2",
+    "@nosa/contracts": "*",
+    "@vercel/functions": "^3.10.3",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "google-auth-library": "^11.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.18.0",
+    "pino": "^9.9.0",
+    "pino-http": "^10.5.0",
+    "sanitize-html": "^2.18.1",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/sanitize-html": "^2.16.2",
+    "@types/supertest": "^7.2.1",
+    "pino-pretty": "^13.1.1",
+    "supertest": "^7.3.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5",
+    "vitest": "^5.0.5"
+  }
+}

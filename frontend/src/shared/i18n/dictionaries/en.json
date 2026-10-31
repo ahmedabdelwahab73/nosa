@@ -1,0 +1,1043 @@
+{
+  "meta": {
+    "title": "Nosa Handmade Crafts",
+    "description": "Handmade crochet, knitting and embroidery — baby dress sets, bags, accessories and personalised gifts."
+  },
+  "common": {
+    "switchLocale": "العربية",
+    "comingSoon": "Coming very soon",
+    "shopNow": "Shop now",
+    "customOrder": "Order a custom piece",
+    "viewAll": "View all",
+    "previous": "Previous",
+    "next": "Next",
+    "home": "Home",
+    "currency": "EGP"
+  },
+  "home": {
+    "heroTitle": "Every stitch made with love",
+    "heroSubtitle": "Handmade crochet, knitting and embroidery, crafted just for you.",
+    "shopByCategory": "Shop by category",
+    "bestSellers": "Best sellers",
+    "newArrivals": "New arrivals",
+    "exploreCategories": "All categories",
+    "defaults": {
+      "eyebrow": "Handmade with love",
+      "heroTitle": "Little pieces of big happiness",
+      "heroSubtitle": "Handmade crochet, knitting and embroidery for your little ones and your special moments.",
+      "shopNow": "Shop now",
+      "customOrder": "Order a custom piece",
+      "aboutTitle": "Made by hand",
+      "aboutText": "Nosa is a small Egyptian brand born from a love for yarn, colour and the joy of making something beautiful by hand. Every piece is made stitch by stitch, with love and patience.",
+      "aboutStats": {
+        "handmade": "Handmade",
+        "customers": "Happy customers",
+        "rating": "Average rating"
+      },
+      "embroideryTitle": "Your names, stitched forever",
+      "embroideryText": "Custom embroidery gifts for your most precious moments.",
+      "embroideryCta": "Explore gifts",
+      "customTitle": "Design your own piece",
+      "customText": "Have an idea? Tell us and we will turn it into a piece made by hand.",
+      "customSteps": [
+        "Share your idea or a photo",
+        "We create a design for you",
+        "Get your custom piece"
+      ],
+      "customCta": "Start your order",
+      "aboutCta": "Our story"
+    },
+    "categoryStrip": "Our categories"
+  },
+  "errors": {
+    "VALIDATION_ERROR": "Some details need fixing",
+    "UNAUTHORIZED": "Please log in first",
+    "FORBIDDEN": "You are not allowed to do this",
+    "NOT_FOUND": "We could not find what you are looking for",
+    "CONFLICT": "This already exists",
+    "RATE_LIMITED": "Too many attempts, please wait and try again",
+    "INTERNAL_ERROR": "Something went wrong on our side, please try again shortly",
+    "retry": "Try again",
+    "requestId": "Reference",
+    "pageTitle": "Something went wrong on our side",
+    "pageText": "Please try again in a moment. If it keeps happening, send us the reference number.",
+    "notFoundTitle": "We could not find that page",
+    "notFoundText": "The link may have changed or the page was removed.",
+    "forbiddenTitle": "You are not allowed to open this page",
+    "forbiddenText": "If you think this is a mistake, ask the shop owner.",
+    "backHome": "Back to home",
+    "backDashboard": "Back to the dashboard"
+  },
+  "orderStatus": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "in_production": "In production",
+    "ready": "Ready",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "returned": "Returned"
+  },
+  "rating": {
+    "outOf": "{value} out of 5"
+  },
+  "feedback": {
+    "created": "Added successfully ✓",
+    "updated": "Updated successfully ✓",
+    "deleted": "Deleted successfully ✓",
+    "saved": "Saved successfully ✓",
+    "sent": "Sent successfully ✓"
+  },
+  "auth": {
+    "welcome": "Welcome back",
+    "subtitle": "Log in to continue your handmade journey.",
+    "continueWithGoogle": "Continue with Google",
+    "or": "or",
+    "phone": "Mobile number",
+    "phonePlaceholder": "01012345678",
+    "continue": "Continue",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "name": "Your name",
+    "namePlaceholder": "Full name",
+    "loginTitle": "Enter your password",
+    "loginSubtitle": "We know this number. Enter your password to log in.",
+    "registerTitle": "First time here?",
+    "registerSubtitle": "Add your name and pick a password. It takes a few seconds.",
+    "login": "Log in",
+    "createAccount": "Create account",
+    "changeNumber": "Change number",
+    "tagline": "Small hands create big joy",
+    "fieldErrors": {
+      "INVALID_PHONE": "That mobile number is not valid",
+      "PASSWORD_TOO_SHORT": "Password must be at least 8 characters",
+      "REQUIRED": "This field is required"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "soon": "Soon",
+    "nav": {
+      "overview": "Overview",
+      "orders": "Orders",
+      "customOrders": "Custom Orders",
+      "products": "Products",
+      "categories": "Categories",
+      "customers": "Customers",
+      "coupons": "Coupons",
+      "reviews": "Reviews",
+      "stories": "Stories",
+      "content": "Website Content",
+      "shipping": "Shipping",
+      "staff": "Staff",
+      "settings": "Settings"
+    },
+    "roles": {
+      "customer": "Customer",
+      "staff": "Staff",
+      "editor": "Editor",
+      "admin": "Admin",
+      "owner": "Owner"
+    },
+    "user": {
+      "logout": "Log out",
+      "account": "My account"
+    },
+    "overview": {
+      "greeting": {
+        "morning": "Good morning, {name}",
+        "afternoon": "Good afternoon, {name}",
+        "evening": "Good evening, {name}"
+      },
+      "subtitle": "Here's what's happening in your store today.",
+      "ranges": {
+        "7": "Last 7 days",
+        "30": "Last 30 days",
+        "90": "Last 90 days"
+      },
+      "kpi": {
+        "revenue": "Total revenue",
+        "orders": "Total orders",
+        "averageOrder": "Average order value",
+        "newCustomers": "New customers",
+        "newCustomOrders": "New custom orders"
+      },
+      "revenueTitle": "Revenue",
+      "statusTitle": "Orders by status",
+      "statusTotal": "orders",
+      "topProductsTitle": "Top products",
+      "recentOrdersTitle": "Recent orders",
+      "lowStockTitle": "Low stock",
+      "table": {
+        "product": "Product",
+        "sold": "Sold",
+        "revenue": "Revenue",
+        "order": "Order",
+        "customer": "Customer",
+        "date": "Date",
+        "total": "Total",
+        "status": "Status"
+      },
+      "emptyOrders": "No orders in this period yet",
+      "emptyTopProducts": "No sales in this period yet",
+      "emptyLowStock": "All products are well stocked",
+      "stockLeft": "{count} left",
+      "noVariant": "Whole product"
+    },
+    "products": {
+      "title": "Products",
+      "subtitle": "Manage your products",
+      "add": "Add product",
+      "search": "Search products...",
+      "allCategories": "All categories",
+      "allStatuses": "All statuses",
+      "status": {
+        "draft": "Draft",
+        "published": "Published",
+        "archived": "Archived"
+      },
+      "columns": {
+        "product": "Product",
+        "category": "Category",
+        "price": "Price",
+        "stock": "Stock",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "bulk": {
+        "placeholder": "Bulk actions",
+        "apply": "Apply",
+        "publish": "Publish",
+        "draft": "Move to draft",
+        "archive": "Archive",
+        "selected": "{count} selected"
+      },
+      "actions": {
+        "edit": "Edit",
+        "duplicate": "Duplicate",
+        "delete": "Delete",
+        "selectAll": "Select all",
+        "selectRow": "Select product"
+      },
+      "deleteTitle": "Delete this product?",
+      "deleteBody": "\"{name}\" will be deleted for good. If you are not sure, archive it instead.",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete",
+      "badges": {
+        "sale": "On sale",
+        "madeToOrder": "Made to order",
+        "featured": "Featured",
+        "outOfStock": "Sold out"
+      },
+      "empty": "No products yet",
+      "emptyHint": "Start by adding your first product.",
+      "emptyFiltered": "No products match these filters.",
+      "clearFilters": "Clear filters",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "summary": "{from}-{to} of {total}"
+      }
+    },
+    "productForm": {
+      "title": {
+        "new": "New product",
+        "edit": "Edit product"
+      },
+      "subtitle": "Everything shoppers see on the product page",
+      "back": "Back to products",
+      "save": "Save",
+      "saveDraft": "Save as draft",
+      "publish": "Publish",
+      "invalid": "Some details need fixing before saving",
+      "languages": {
+        "ar": "العربية",
+        "en": "English"
+      },
+      "basics": {
+        "title": "Name & description",
+        "name": "Product name",
+        "description": "Description",
+        "care": "Care instructions",
+        "namePlaceholder": {
+          "ar": "فستان كروشيه أحمر وأبيض",
+          "en": "Red & white crochet dress"
+        }
+      },
+      "pricing": {
+        "title": "Price & stock",
+        "price": "Price (EGP)",
+        "salePrice": "Sale price",
+        "save": "Save {percent}%",
+        "stock": "Stock",
+        "madeToOrder": "Made to order",
+        "madeToOrderHint": "No stock; prepared after the order.",
+        "productionDays": "Production days",
+        "productionHint": "Days needed to prepare the piece.",
+        "variantsNote": "This product has variants, so stock is set per variant below."
+      },
+      "variants": {
+        "title": "Sizes & colors",
+        "sizes": "Sizes",
+        "colors": "Colors",
+        "valueAr": "Arabic",
+        "valueEn": "English",
+        "add": "Add",
+        "remove": "Remove",
+        "generate": "Generate variants",
+        "empty": "Add sizes or colors, then generate the variants.",
+        "sku": "SKU",
+        "size": "Size",
+        "color": "Color",
+        "price": "Price",
+        "priceHint": "Empty = base price",
+        "stock": "Stock",
+        "madeToOrder": "Made to order",
+        "sizeExample": {
+          "ar": "٦-١٢ شهر",
+          "en": "6-12m"
+        },
+        "colorExample": {
+          "ar": "أحمر",
+          "en": "Red"
+        },
+        "regenerateHint": "Existing variants keep their data."
+      },
+      "customization": {
+        "title": "Personalisation",
+        "enabled": "This product can be personalised (name, date, notes...)",
+        "extraPrice": "Extra price for personalisation",
+        "addField": "Add field",
+        "label": "Field name",
+        "key": "Key",
+        "type": "Type",
+        "types": {
+          "text": "Text",
+          "date": "Date",
+          "color": "Color",
+          "image": "Image",
+          "note": "Notes"
+        },
+        "required": "Required",
+        "maxLength": "Max characters",
+        "remove": "Remove field",
+        "empty": "No fields yet. A field asks the shopper a question, like the baby's name."
+      },
+      "images": {
+        "title": "Images",
+        "hint": "The first image is the main one. PNG or JPG up to 10MB.",
+        "primary": "Main",
+        "makePrimary": "Make main",
+        "remove": "Remove image"
+      },
+      "organize": {
+        "title": "Category & tags",
+        "category": "Category",
+        "selectCategory": "Choose a category",
+        "tags": "Tags",
+        "tagPlaceholder": "Type a tag and press Enter",
+        "setItems": "Set contents",
+        "setItemPlaceholder": {
+          "ar": "فستان",
+          "en": "Dress"
+        },
+        "addSetItem": "Add item",
+        "featured": "Featured product (shown on the home page)"
+      },
+      "publishCard": {
+        "title": "Publishing",
+        "status": "Status",
+        "slug": "Product URL",
+        "slugHint": "English letters and dashes. Leave empty to create it from the name."
+      },
+      "seo": {
+        "title": "How it looks on Google",
+        "seoTitle": "Title",
+        "seoDescription": "Description",
+        "hint": "Optional. If empty, the product name and description are used."
+      },
+      "errors": {
+        "REQUIRED": "This field is required",
+        "TOO_LONG": "This is too long",
+        "INVALID": "This value is not valid",
+        "INVALID_SLUG": "Use English letters, numbers and dashes",
+        "SALE_PRICE_NOT_LOWER": "Sale price must be lower than the price",
+        "DUPLICATE_SKU": "Duplicate SKU",
+        "UNKNOWN_OPTION_VALUE": "A variant uses a size or color that does not exist"
+      }
+    },
+    "imageUploader": {
+      "drop": "Drag images here or click to choose",
+      "hint": "PNG or JPG up to 10MB. The first image is the main one.",
+      "primary": "Main",
+      "makePrimary": "Make main",
+      "remove": "Remove image",
+      "uploaded": "Images uploaded ✓",
+      "tooLarge": "An image is larger than allowed",
+      "notImage": "That file is not an image",
+      "uploadFailed": "The image could not be uploaded, try again"
+    },
+    "categories": {
+      "title": "Categories",
+      "subtitle": "Organise your products so shoppers find things easily",
+      "add": "Add category",
+      "columns": {
+        "category": "Category",
+        "slug": "URL",
+        "visible": "Visible",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "moveUp": "Move up",
+        "moveDown": "Move down",
+        "addChild": "Subcategory"
+      },
+      "deleteTitle": "Delete this category?",
+      "deleteBody": "\"{name}\" will be deleted. If it has products inside, it cannot be deleted.",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete",
+      "empty": "No categories yet",
+      "emptyHint": "Start with something like \"Baby sets\" or \"Crochet bags\".",
+      "form": {
+        "titleNew": "New category",
+        "titleEdit": "Edit category",
+        "name": "Category name",
+        "description": "Short description",
+        "slug": "Category URL",
+        "slugHint": "English letters and dashes. Leave empty to create it from the name.",
+        "parent": "Parent category",
+        "noParent": "Top-level category",
+        "image": "Category image",
+        "visible": "Visible on the site",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Store details and how shoppers buy",
+      "save": "Save settings",
+      "store": {
+        "title": "Store details",
+        "name": "Store name"
+      },
+      "contact": {
+        "title": "Contact",
+        "phone": "Store phone",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "address": "Address",
+        "phoneHint": "An Egyptian mobile number, like 01012345678"
+      },
+      "socials": {
+        "title": "Social media",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok",
+        "urlHint": "Paste the full link from your browser"
+      },
+      "checkout": {
+        "title": "Checkout & payment",
+        "allowGuest": "Guest checkout",
+        "allowGuestHint": "Shoppers can order without creating an account.",
+        "payments": "Payment methods",
+        "methods": {
+          "cod": "Cash on delivery",
+          "card": "Bank card",
+          "wallet": "E-wallet",
+          "instapay": "InstaPay"
+        },
+        "alwaysOn": "Always on",
+        "soon": "Soon",
+        "freeShipping": "Free shipping on orders above (EGP)",
+        "freeShippingHint": "Leave empty for no free shipping."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "lowStock": "Warn me when stock reaches",
+        "lowStockHint": "The product shows under \"Low stock\" on the dashboard home."
+      },
+      "announcement": {
+        "title": "Announcement bar",
+        "enabled": "Show the bar at the top of the site",
+        "text": "Announcement text"
+      },
+      "maintenance": {
+        "title": "Maintenance mode",
+        "enabled": "Close the site temporarily",
+        "hint": "Shoppers see a maintenance message. The dashboard keeps working."
+      },
+      "errors": {
+        "INVALID_PHONE": "That mobile number is not valid",
+        "INVALID": "This value is not valid",
+        "REQUIRED": "This field is required",
+        "TOO_LONG": "This is too long"
+      }
+    },
+    "account": {
+      "title": "My account",
+      "subtitle": "Change your password",
+      "current": "Current password",
+      "next": "New password",
+      "confirm": "Confirm the new password",
+      "hint": "At least 8 characters. You will be signed out of your other devices.",
+      "save": "Change password",
+      "forcedTitle": "Choose a new password first",
+      "forcedText": "Your password is temporary. Pick one of your own to open the dashboard.",
+      "errors": {
+        "REQUIRED": "This field is required",
+        "TOO_LONG": "This is too long",
+        "PASSWORD_TOO_SHORT": "The password needs at least 8 characters",
+        "WRONG_PASSWORD": "The current password is wrong",
+        "MISMATCH": "The passwords don't match",
+        "SAME": "The new password must be different from the old one",
+        "INVALID": "This value is not valid"
+      }
+    },
+    "team": {
+      "title": "Team & permissions",
+      "subtitle": "Add staff and choose what each person can see and do",
+      "add": "Add staff member",
+      "you": "You",
+      "soon": "—",
+      "never": "Hasn't signed in yet",
+      "mustChange": "Must change password",
+      "active": "Active",
+      "disabled": "Disabled",
+      "empty": "No staff yet",
+      "columns": {
+        "member": "Member",
+        "role": "Role",
+        "status": "Status",
+        "lastLogin": "Last sign-in",
+        "actions": "Actions"
+      },
+      "roleHints": {
+        "staff": "Follows orders and custom orders only",
+        "editor": "Manages products, categories, content and reviews",
+        "admin": "Everything in the dashboard, except assigning an owner",
+        "owner": "Everything, no exceptions"
+      },
+      "form": {
+        "titleNew": "New staff member",
+        "titleEdit": "Edit staff member",
+        "name": "Name",
+        "phone": "Mobile number",
+        "phoneLocked": "The number can't change after adding",
+        "role": "Role",
+        "password": "Temporary password",
+        "passwordNew": "They will be asked to change it at their first sign-in",
+        "passwordEdit": "Leave empty to keep the password. If you type one, they are signed out of all their devices.",
+        "active": "Account is active",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "errors": {
+        "REQUIRED": "This field is required",
+        "TOO_SHORT": "The name is too short",
+        "TOO_LONG": "This is too long",
+        "INVALID": "This value is not valid",
+        "INVALID_PHONE": "That mobile number is not valid",
+        "PASSWORD_TOO_SHORT": "The password needs at least 8 characters",
+        "ALREADY_EXISTS": "This number is already registered"
+      },
+      "matrix": {
+        "title": "What each role can see",
+        "subtitle": "Which dashboard sections every role opens",
+        "screen": "Section",
+        "yes": "Allowed",
+        "no": "Not allowed"
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "subtitle": "Every customer order and where it stands",
+      "search": "Search by number, name or phone",
+      "allStatuses": "All statuses",
+      "allPayments": "All payment methods",
+      "clearFilters": "Clear filters",
+      "empty": "No orders yet",
+      "emptyHint": "New orders show up here as soon as a customer places one.",
+      "emptyFiltered": "No orders match these filters.",
+      "columns": {
+        "number": "Order",
+        "customer": "Customer",
+        "governorate": "Governorate",
+        "items": "Items",
+        "total": "Total",
+        "payment": "Payment",
+        "status": "Status",
+        "date": "Date"
+      },
+      "paymentMethod": {
+        "cod": "Cash on delivery",
+        "card": "Card",
+        "wallet": "Wallet",
+        "instapay": "InstaPay"
+      },
+      "paymentStatus": {
+        "unpaid": "Unpaid",
+        "pending": "Pending",
+        "paid": "Paid",
+        "refunded": "Refunded",
+        "failed": "Failed"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "summary": "{from}-{to} of {total}"
+      },
+      "detail": {
+        "back": "Back to orders",
+        "customer": "Customer",
+        "address": "Address",
+        "items": "Items",
+        "customization": "Personalisation",
+        "madeToOrder": "Made to order",
+        "totals": {
+          "subtotal": "Items",
+          "discount": "Discount",
+          "shipping": "Shipping",
+          "free": "Free",
+          "total": "Total"
+        },
+        "coupon": "Coupon",
+        "customerNote": "Customer note",
+        "deliveryEstimate": "Estimated delivery: {min}-{max} days",
+        "history": "Order history",
+        "status": {
+          "title": "Change status",
+          "next": "New status",
+          "placeholder": "Choose a status",
+          "note": "Note (optional)",
+          "apply": "Update status",
+          "final": "This order is finished, there are no further statuses."
+        },
+        "notes": {
+          "title": "Internal notes",
+          "hint": "Only your team sees these notes, never the customer.",
+          "placeholder": "Write a note...",
+          "add": "Add note",
+          "empty": "No notes yet"
+        },
+        "call": "Call",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "customers": {
+      "title": "Customers",
+      "subtitle": "Everyone who signed up to the shop",
+      "search": "Search by name, phone or email",
+      "empty": "No customers yet",
+      "emptyHint": "A customer shows up here as soon as she creates an account.",
+      "emptyFiltered": "No customers match this search.",
+      "columns": {
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "joined": "Joined",
+        "lastLogin": "Last sign-in",
+        "status": "Account"
+      },
+      "viewOrders": "See her orders",
+      "active": "Active",
+      "disabled": "Disabled",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "summary": "{from}-{to} of {total}"
+      }
+    },
+    "shipping": {
+      "title": "Shipping",
+      "subtitle": "Delivery fee and time for each governorate. The free-shipping threshold is in Settings.",
+      "columns": {
+        "governorate": "Governorate",
+        "fee": "Fee (EGP)",
+        "days": "Delivery days",
+        "delivers": "Delivers",
+        "actions": ""
+      },
+      "from": "From",
+      "to": "To",
+      "save": "Save"
+    },
+    "coupons": {
+      "title": "Coupons",
+      "subtitle": "Discount codes you share with customers",
+      "add": "New coupon",
+      "empty": "No coupons yet",
+      "emptyHint": "Create your first discount code and share it.",
+      "noDates": "No dates",
+      "active": "Active",
+      "disabled": "Disabled",
+      "types": {
+        "percent": "Percent %",
+        "fixed": "Fixed amount",
+        "free_shipping": "Free shipping"
+      },
+      "columns": {
+        "code": "Code",
+        "discount": "Discount",
+        "minimum": "Minimum order",
+        "used": "Used",
+        "validity": "Valid",
+        "status": "Status",
+        "actions": ""
+      },
+      "delete": {
+        "action": "Delete",
+        "title": "Delete coupon {code}?",
+        "text": "The coupon will be removed for good.",
+        "usedText": "This coupon has been used, so it is only switched off to stay in the order history.",
+        "cancel": "No",
+        "confirm": "Yes"
+      },
+      "form": {
+        "titleNew": "New coupon",
+        "titleEdit": "Edit coupon",
+        "code": "Code",
+        "codeHint": "English letters and numbers, 3 to 30 (e.g. WELCOME10)",
+        "type": "Discount type",
+        "valuePercent": "Discount (%)",
+        "valueFixed": "Discount amount (EGP)",
+        "minSubtotal": "Minimum order (EGP)",
+        "minSubtotalHint": "Leave 0 for no minimum",
+        "maxUses": "Maximum uses",
+        "perUserLimit": "Uses per customer",
+        "unlimitedHint": "Leave empty for no limit",
+        "startsAt": "Starts on",
+        "endsAt": "Ends on",
+        "active": "Coupon is active",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "errors": {
+        "INVALID": "This value is not valid",
+        "INVALID_CODE": "Use English letters and numbers, 3 to 30 characters",
+        "INVALID_PERCENT": "The percent must be between 1 and 100",
+        "INVALID_VALUE": "The value must be greater than zero",
+        "ENDS_BEFORE_START": "The end date must be after the start",
+        "ALREADY_EXISTS": "This code already exists"
+      }
+    },
+    "content": {
+      "title": "Site content",
+      "subtitle": "The home page and the info pages, all from here",
+      "tabs": {
+        "home": "Home page",
+        "pages": "Info pages"
+      },
+      "errors": {
+        "REQUIRED": "This field is required",
+        "TOO_LONG": "The text is too long",
+        "INVALID": "This value is not valid",
+        "INVALID_LINK": "The link must start with / (inside the site) or https://",
+        "ALREADY_EXISTS": "This link already exists"
+      },
+      "home": {
+        "hint": "Arrange the home page sections the way you like: hide or show a section and move it up or down.",
+        "add": "Add section",
+        "empty": "The home page is still on the ready-made design",
+        "emptyHint": "Press the button below and we copy the ready-made design so you can edit it freely.",
+        "useDefault": "Use the ready-made design",
+        "shown": "Shown",
+        "hidden": "Hidden",
+        "types": {
+          "hero": "Main banner",
+          "categories": "Categories",
+          "products": "Product row",
+          "banner": "Banner",
+          "richText": "Text & figures",
+          "stories": "Instagram stories",
+          "reviews": "Customer reviews"
+        },
+        "typeHints": {
+          "hero": "The first thing shoppers see",
+          "categories": "The round category photos",
+          "products": "Best sellers, new arrivals...",
+          "banner": "A wide promo with a picture and a button",
+          "richText": "Your story and a few figures",
+          "stories": "Photos from the Instagram account",
+          "reviews": "What customers say"
+        },
+        "actions": {
+          "edit": "Edit",
+          "delete": "Delete",
+          "moveUp": "Move up",
+          "moveDown": "Move down"
+        },
+        "delete": {
+          "title": "Delete this section?",
+          "text": "It disappears from the home page. To only hide it, use the visibility switch.",
+          "cancel": "No",
+          "confirm": "Yes"
+        },
+        "form": {
+          "titleNew": "New section",
+          "titleEdit": "Edit",
+          "active": "Shown on the home page",
+          "cancel": "Cancel",
+          "save": "Save"
+        },
+        "fields": {
+          "title": "Title",
+          "subtitle": "Description",
+          "text": "Text",
+          "body": "Text",
+          "bodyHint": "A blank line between paragraphs starts a new paragraph.",
+          "image": "Picture",
+          "imageHint": "Without a picture, temporary artwork shows until you upload yours.",
+          "primaryButton": "Main button",
+          "secondaryButton": "Second button",
+          "button": "Button",
+          "removeButton": "Remove button",
+          "ctaLabel": "Button text",
+          "ctaLink": "Link",
+          "ctaLinkHint": "Inside the site like /shop or /custom-order, or a full link starting with https://",
+          "categories": "Categories to show",
+          "categoriesHint": "Leave all unticked to show every category.",
+          "source": "Products from",
+          "sources": {
+            "bestsellers": "Best sellers",
+            "newest": "New arrivals",
+            "featured": "Featured",
+            "category": "One category"
+          },
+          "category": "Category",
+          "limit": "Number of products",
+          "steps": "Steps",
+          "stepsHint": "Up to 4 numbered steps shown beside the text.",
+          "step": "Step",
+          "addStep": "Add step",
+          "removeStep": "Remove step",
+          "stats": "Small figures",
+          "statsHint": "Like 100% handmade. Up to 4.",
+          "statValue": "Figure",
+          "statLabel": "Label",
+          "addStat": "Add figure",
+          "removeStat": "Remove figure",
+          "storiesNote": "Photos are pulled from the Instagram account automatically once it is connected.",
+          "reviewsNote": "Reviews are pulled from customer feedback once you approve them."
+        }
+      },
+      "pages": {
+        "hint": "Pages like our story, shipping and returns, FAQ. They appear in the footer.",
+        "add": "New page",
+        "empty": "No pages yet",
+        "emptyHint": "Create a page like about, shipping-returns or faq and it shows in the footer by itself.",
+        "columns": {
+          "title": "Title",
+          "slug": "Link",
+          "updated": "Last edited",
+          "status": "Status",
+          "actions": ""
+        },
+        "published": "Published",
+        "draft": "Draft",
+        "view": "Open page",
+        "delete": {
+          "action": "Delete",
+          "title": "Delete the {title} page?",
+          "text": "The page is removed for good.",
+          "cancel": "No",
+          "confirm": "Yes"
+        },
+        "form": {
+          "titleNew": "New page",
+          "titleEdit": "Edit page",
+          "slug": "Page link",
+          "slugHint": "Lowercase English letters and dashes. The footer shows: about, shipping-returns, faq and contact.",
+          "slugLocked": "The link does not change after creating",
+          "title": "Title",
+          "body": "Content",
+          "bodyHint": "A blank line between paragraphs starts a new paragraph.",
+          "published": "Page is published",
+          "cancel": "Cancel",
+          "save": "Save"
+        }
+      }
+    }
+  },
+  "store": {
+    "nav": {
+      "home": "Home",
+      "shop": "Shop",
+      "search": "Search",
+      "account": "Account",
+      "login": "Sign in",
+      "cart": "Cart",
+      "menu": "Menu",
+      "close": "Close",
+      "customOrder": "Custom order",
+      "allProducts": "All products",
+      "skip": "Skip to content"
+    },
+    "search": {
+      "placeholder": "Search handmade treasures...",
+      "submit": "Search"
+    },
+    "footer": {
+      "shop": "Shop",
+      "contact": "Get in touch",
+      "follow": "Follow us",
+      "tagline": "Small hands, big love",
+      "rights": "All rights reserved",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "email": "Email",
+      "about": "About"
+    },
+    "product": {
+      "addToCart": "Add to cart",
+      "buyNow": "Buy now",
+      "outOfStock": "Out of stock",
+      "madeToOrder": "Made to order",
+      "sale": "Sale",
+      "featured": "Featured",
+      "customizable": "Customisable",
+      "size": "Size",
+      "color": "Color",
+      "quantity": "Quantity",
+      "inStock": "In stock",
+      "setIncludes": "Set includes",
+      "details": "Details",
+      "care": "Care",
+      "shipping": "Shipping & delivery",
+      "shippingText": "We ship to every governorate in Egypt. The time depends on the area and is confirmed at checkout.",
+      "related": "You may also like",
+      "handmadeIn": "Handmade in Egypt",
+      "readyIn": "Ready in {days} days",
+      "selectOptions": "Choose a size and a color",
+      "reviews": "Customer reviews",
+      "noReviews": "No reviews yet",
+      "fromPrice": "From",
+      "rating": "Rated {value} out of 5",
+      "gallery": "Product images",
+      "previousImage": "Previous image",
+      "nextImage": "Next image",
+      "images": "Image {n}",
+      "added": "Added to your cart ✓",
+      "addFailed": "We could not add it to the cart, please try again",
+      "chooseOptions": "Choose a size and a color first",
+      "fillFields": "Fill in the required customisation fields",
+      "viewCart": "View cart"
+    },
+    "shop": {
+      "title": "Shop",
+      "sortBy": "Sort by",
+      "sorts": {
+        "newest": "Newest",
+        "price_asc": "Price: low to high",
+        "price_desc": "Price: high to low",
+        "popular": "Most popular",
+        "rating": "Top rated"
+      },
+      "filters": {
+        "title": "Filters",
+        "clear": "Clear all",
+        "size": "Size",
+        "color": "Color",
+        "price": "Price",
+        "min": "From",
+        "max": "To",
+        "availability": "Availability",
+        "inStock": "In stock",
+        "customizable": "Customisable",
+        "apply": "Apply",
+        "open": "Filters"
+      },
+      "results": "{count} products",
+      "empty": "No products here yet",
+      "emptyText": "Try changing the filters or browse the other categories.",
+      "breadcrumbShop": "Shop"
+    },
+    "searchPage": {
+      "title": "Search results",
+      "resultsFor": "Results for \"{q}\"",
+      "prompt": "Type the name of the piece you are looking for",
+      "empty": "We couldn't find anything with that name",
+      "emptyText": "Try another word, or browse all products."
+    },
+    "cart": {
+      "title": "Shopping cart",
+      "empty": "Your cart is empty",
+      "emptyText": "Add something lovely and come back to finish your order.",
+      "continueShopping": "Continue shopping",
+      "items": "{count} items",
+      "remove": "Remove",
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity",
+      "unavailable": "This piece isn't available in this quantity",
+      "madeToOrder": "Made to order",
+      "customization": "Customisation",
+      "summary": "Order summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "shippingNote": "Calculated at checkout",
+      "total": "Total",
+      "checkout": "Checkout",
+      "fixIssues": "Some pieces need attention before you continue",
+      "coupon": {
+        "label": "Have a coupon?",
+        "placeholder": "Enter the code",
+        "apply": "Apply",
+        "remove": "Remove coupon",
+        "applied": "Coupon applied: {code}",
+        "freeShipping": "Free shipping"
+      }
+    },
+    "checkout": {
+      "title": "Checkout",
+      "contact": "Contact details",
+      "name": "Name",
+      "phone": "Mobile number",
+      "email": "Email (optional)",
+      "address": "Delivery address",
+      "governorate": "Governorate",
+      "chooseGovernorate": "Choose your governorate",
+      "city": "City / area",
+      "street": "Street",
+      "building": "Building / floor / flat",
+      "landmark": "Landmark (optional)",
+      "payment": "Payment method",
+      "cod": "Cash on delivery",
+      "codHint": "You pay the courier in cash when your piece arrives.",
+      "notes": "Order notes (optional)",
+      "placeOrder": "Place order",
+      "summary": "Order summary",
+      "shipping": "Shipping",
+      "shippingPick": "Choose a governorate to see shipping",
+      "delivery": "Delivery in {min}-{max} business days",
+      "free": "Free",
+      "signInRequired": "Please sign in to continue your order",
+      "signIn": "Sign in",
+      "emptyCart": "Your cart is empty, add a piece first",
+      "invalid": "Some details need fixing before you confirm",
+      "errors": {
+        "REQUIRED": "This field is required",
+        "TOO_SHORT": "This is too short",
+        "TOO_LONG": "This is too long",
+        "INVALID": "This value is not valid",
+        "INVALID_PHONE": "That mobile number is not valid"
+      }
+    },
+    "order": {
+      "thanksTitle": "We got your order 🎉",
+      "thanksText": "We will call you to confirm it. Thank you for choosing something made by hand.",
+      "number": "Order number",
+      "status": "Order status",
+      "items": "Items",
+      "total": "Total",
+      "payment": "Payment",
+      "cod": "On delivery",
+      "address": "Address",
+      "keepNumber": "Keep your order number in case you want to follow up with us.",
+      "notFound": "We couldn't find this order",
+      "notFoundText": "Your session may have ended. Send us the order number on WhatsApp and we will follow it up."
+    }
+  }
+}
